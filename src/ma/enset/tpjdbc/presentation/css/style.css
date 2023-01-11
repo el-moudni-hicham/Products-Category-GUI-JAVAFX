@@ -1,0 +1,45 @@
+.root{
+    -fx-background-color: #f3fcfb;
+}
+
+.btnAdd{
+    -fx-graphic: url('../view/img/p.png');
+}
+.btnUpdate{
+    -fx-graphic: url('../view/img/refresh.png');
+}
+.btnDelete{
+    -fx-graphic: url('../view/img/delete.png');
+}
+
+.button{
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bolder,lighter;
+}
+.txt-fld{
+    -fx-background-color: #aff1ea;
+    -fx-border-color: #282544;
+    -fx-border-style: solid;
+    -fx-border-radius: 4px;
+}
+.txt-fld:hover{
+    -fx-background-color: #bbe7e8;
+}
+.text-area{
+    -fx-background-color: #aff1ea;
+    -fx-border-color: #282544;
+    -fx-border-style: solid;
+    -fx-border-radius: 4px;
+}
+.text-area:focused{
+    -fx-background-color: #4169E1;
+}
+.label{
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bolder;
+}
+
+.cell:hover{
+    -fx-background-color: rgb(255, 231, 97);
+}
+

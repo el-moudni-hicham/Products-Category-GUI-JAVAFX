@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="680.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="PRODUCTS">
+      <content>
+        <fx:include source="produitsView.fxml" />
+      </content>
+    </Tab>
+    <Tab text="CATEGORY">
+      <content>
+        <fx:include source="categoriesView.fxml" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
